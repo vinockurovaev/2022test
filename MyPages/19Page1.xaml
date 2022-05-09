@@ -1,0 +1,41 @@
+﻿<Page x:Class="ПримерДляДЭ.MyPages._19Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ПримерДляДЭ.MyPages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="_19Page1">
+
+    <Grid>
+        <StackPanel Orientation="Vertical">
+        <StackPanel>
+        <Border Margin="351,5,300,0" Padding="5" Height="143" Background="#FF01C6CA"  
+          BorderBrush="#FFE2FF01" BorderThickness="3,5,3,5"
+CornerRadius="100"
+        VerticalAlignment="Top">
+            <StackPanel>
+                <Button Margin="10,30,9.8,30" BorderBrush="Bisque" Height="74" Content="Two" Opacity="0" Click="Button_Click" />
+
+            </StackPanel>
+        </Border>
+        </StackPanel>
+        <StackPanel>
+            <Button Height="100" Width="200" Margin="50" Click="Button_Click_1" >
+                <Viewbox>
+                    <Grid>
+                        <Polygon Points="100,25 125,0 200,25 125,50"
+             Fill="Yellow" />
+                       
+                        <Polygon Points="100,25 75,0 0,25 75,50"
+             Fill="Purple"/>
+                    </Grid>
+                </Viewbox>
+            </Button>
+        </StackPanel>
+        </StackPanel>
+
+
+    </Grid>
+</Page>
