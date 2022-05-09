@@ -21,7 +21,7 @@
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
                     <TextBlock Text="Длительность" Style="{StaticResource mainTxtb}"></TextBlock>
-                    <TextBox Name="TxtDescpription" Text="{Binding DurationInSeconds}" Style="{StaticResource mainTxt}"></TextBox>
+                    <TextBox Name="TxtDescpription"  Text="{Binding DurationInSeconds}" Style="{StaticResource mainTxt}"></TextBox>
                 </StackPanel>
                 <Button x:Name="btnSave" Content=" Сохранить" Style="{StaticResource mainBtn}" Click="btnSave_Click"></Button>
             </StackPanel>
